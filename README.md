@@ -16,18 +16,18 @@ Their personality determines how they interact with others and their physique de
 
 When Wins run into each other, they will either attempt to fight or mate. 
 
-* ****Fighting:****
+* **Fighting:**
   * ***Combativeness***: How likely a Win will choose to fight vs run
   * ***Speed***: How successful a Win is at running away
   * ***Strength***: How successful a Win is at fighting
-* ****Mating:****
+* **Mating:**
   * ***Gender***: Wins will only mate with Wins of other genders
   * ***Mating_Selectivity_Strength***: Wins will only mate with Wins with a higher strength than their selectivity
   * ***Mating_Selectivitiy_Speed***: Wins will only mate with Wins with a higher speed than their selectivity
 
 Further details of these functions and their relationship to personality/physique is made clear in the comments for the ‘mate’ and ‘fight’ functions defined in “Win.cpp”.
 
-### Environmental Factors (Initial Conditions): ###
+### Environmental and Species Wide Factors: ###
 
 There are a few factors that can be tweaked for the species as a whole. 
 
